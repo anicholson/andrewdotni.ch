@@ -1,3 +1,4 @@
 ---
 steps:
-  - command: echo "Success"
+  - command: hugo -v
+    label: ":hammer: build"
